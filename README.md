@@ -45,10 +45,12 @@ Ao considerar riscos e custos de forma integrada, a aplicação possibilita:
 
 ## Como usar
 
-1. Selecione a cidade de origem e destino na interface web;
+1. Acesse a a aplicação em https://projeto-14--sistema-inteligente-de-rotas-sosjp3gywohesw24qm6yd.streamlit.app/ e elecione a cidade de origem e destino na interface web;
 2. O sistema calcula automaticamente a rota com menor risco ponderado e custo;
 3. Veja o caminho recomendado, distância total, risco estimado e custo com combustível;
 4. Visualize o trajeto no mapa interativo.
+   <img width="839" height="888" alt="image" src="https://github.com/user-attachments/assets/61e52fcc-ef33-4b51-b9eb-884008824b56" />
+
 
 ---
 
