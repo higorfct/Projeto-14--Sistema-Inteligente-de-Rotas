@@ -1,5 +1,0 @@
-streamlit
-openrouteservice
-folium
-streamlit-folium
-requests
