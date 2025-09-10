@@ -1,65 +1,67 @@
-# Projeto 14: Sistema Inteligente de Rotas
+# Project 14: Smart Routing System
 
-# 🚛 Roteirizador Inteligente para Entregas Seguras e Econômicas
-
-## Descrição do Projeto
-
-Esta aplicação web é um roteirizador inteligente que calcula a **melhor rota de entrega** considerando simultaneamente fatores de risco logístico (roubo de carga, acidentes, chuvas e enchentes) e o custo com combustível. Utilizando um grafo ponderado, o sistema encontra a rota que minimiza o risco total e o custo financeiro, garantindo entregas mais seguras e econômicas.
-
-Construída com Python, Streamlit e NetworkX, a aplicação oferece uma interface simples para seleção de cidades de origem e destino, exibindo o trajeto otimizado em um mapa interativo.
+🚛 **Intelligent Route Planner for Safe and Cost-Effective Deliveries**
 
 ---
 
-## Problema de Negócio
+## Project Overview
 
-Uma transportadora enfrenta desafios para equilibrar **segurança das cargas** e **custos operacionais**. Rotas mais curtas podem passar por regiões com alto risco de roubos ou desastres naturais, enquanto rotas mais seguras podem ser muito mais longas, elevando custos com combustível e tempo.
+This web application is an intelligent route planner that calculates the **optimal delivery route** by simultaneously considering logistics risks (cargo theft, accidents, rain, and floods) and fuel costs. Using a weighted graph, the system identifies the route that minimizes both total risk and financial expense, ensuring safer and more cost-efficient deliveries.
 
-Esta aplicação endereça essa dificuldade ao:
-
-- Quantificar e combinar múltiplos riscos em uma única métrica ponderada;
-- Incorporar o custo de combustível baseado na distância;
-- Gerar rotas que minimizam simultaneamente riscos e custos;
-- Facilitar a tomada de decisão para planejamento logístico mais seguro e eficiente.
+Built with **Python**, **Streamlit**, and **NetworkX**, the app provides a user-friendly interface for selecting origin and destination cities, displaying the optimized route on an interactive map.
 
 ---
 
-## Impactos Financeiros
+## Business Challenge
 
-Ao considerar riscos e custos de forma integrada, a aplicação possibilita:
+Logistics companies often struggle to balance **cargo safety** and **operational costs**. Shorter routes may pass through high-risk areas for theft or natural disasters, while safer routes can be much longer, increasing fuel and time expenses.
 
-- **Redução significativa de perdas financeiras** relacionadas a roubos e acidentes;
-- **Otimização do consumo de combustível**, reduzindo despesas operacionais;
-- **Aumento da confiabilidade e pontualidade das entregas**, melhorando a satisfação do cliente e reputação da empresa;
-- **Tomada de decisão baseada em dados**, mitigando riscos desnecessários e economizando recursos.
+This application addresses these challenges by:
 
----
-
-## Tecnologias Utilizadas
-
-- **Python** para lógica de roteirização e análise de dados;
-- **NetworkX** para modelagem do problema como um grafo e cálculo das rotas ótimas;
-- **Streamlit** para criação da interface web simples e interativa;
-- **Folium** para visualização do mapa das rotas.
+- Quantifying and combining multiple risk factors into a single weighted metric  
+- Incorporating fuel costs based on distance  
+- Generating routes that minimize both risk and expense  
+- Supporting smarter decision-making for safer, more efficient logistics planning  
 
 ---
 
-## Como usar
+## Financial Benefits
 
-1. Acesse a a aplicação em https://projeto-14--sistema-inteligente-de-rotas-sosjp3gywohesw24qm6yd.streamlit.app/ e elecione a cidade de origem e destino na interface web;
-2. O sistema calcula automaticamente a rota com menor risco ponderado e custo;
-3. Veja o caminho recomendado, distância total, risco estimado e custo com combustível;
-4. Visualize o trajeto no mapa interativo.
-   <img width="839" height="888" alt="image" src="https://github.com/user-attachments/assets/61e52fcc-ef33-4b51-b9eb-884008824b56" />
+By integrating risk and cost considerations, the system helps:
 
-
----
-
-## Próximos passos
-
-- Integração com dados reais de riscos e trânsito;
-- Adição de variáveis dinâmicas, como condições climáticas em tempo real;
-- Expansão para mais cidades e rotas complexas;
-- Inclusão de opções personalizadas para diferentes perfis de risco.
+- **Significantly reduce financial losses** due to theft or accidents  
+- **Optimize fuel consumption**, lowering operational costs  
+- **Increase delivery reliability and punctuality**, enhancing customer satisfaction and company reputation  
+- **Enable data-driven decisions**, mitigating unnecessary risks and saving resources  
 
 ---
 
+## Technologies Used
+
+- **Python** for routing logic and data analysis  
+- **NetworkX** to model the problem as a graph and compute optimal routes  
+- **Streamlit** for a simple, interactive web interface  
+- **Folium** for route map visualization  
+
+---
+
+## How to Use
+
+1. Access the app at: [Smart Routing System](https://projeto-14--sistema-inteligente-de-rotas-sosjp3gywohesw24qm6yd.streamlit.app/)  
+2. Select your origin and destination cities  
+3. The system automatically calculates the route with the lowest weighted risk and cost  
+4. View the recommended path, total distance, estimated risk, and fuel cost  
+5. Explore the route on the interactive map  
+
+<img width="839" height="888" alt="Smart Routing Map" src="https://github.com/user-attachments/assets/61e52fcc-ef33-4b51-b9eb-884008824b56" />
+
+---
+
+## Next Steps
+
+- Integrate real-time risk and traffic data  
+- Add dynamic variables, such as live weather conditions  
+- Expand coverage to more cities and complex routes  
+- Include customizable options for different risk profiles  
+
+---
