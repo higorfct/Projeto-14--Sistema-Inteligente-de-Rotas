@@ -1,4 +1,4 @@
-# Project 14: Smart Routing System
+# Smart Routing System
 
 🚛 **Intelligent Route Planner for Safe and Cost-Effective Deliveries**
 
