@@ -53,7 +53,7 @@ By integrating risk and cost considerations, the system helps:
 4. View the recommended path, total distance, estimated risk, and fuel cost  
 5. Explore the route on the interactive map  
 
-<img width="839" height="888" alt="Smart Routing Map" src="https://github.com/user-attachments/assets/61e52fcc-ef33-4b51-b9eb-884008824b56" />
+<img width="626" height="789" alt="image" src="https://github.com/user-attachments/assets/11a6e7d7-c210-40c2-83e4-a32f68512118" />
 
 ---
 
